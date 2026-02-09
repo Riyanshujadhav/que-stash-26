@@ -8,7 +8,7 @@
 //          * * * * *
 
 
-public class Pattern_2_ {
+public class Q2-1-Pattern_2_ {
    public static void main(String[] args) {
     int n=5;
     for (int i = 1; i <=n; i++) {
