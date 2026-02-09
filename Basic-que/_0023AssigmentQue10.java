@@ -3,6 +3,6 @@
 
 // Input Format
 // A single line containing three space-separated integers: A, B, and C.
-public class que10 {
+public class _0023AssigmentQue10 {
     
 }

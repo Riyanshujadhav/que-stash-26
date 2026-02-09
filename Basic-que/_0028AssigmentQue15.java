@@ -3,6 +3,6 @@
 
 // Input Format
 // Two space-separated integers: the first is the Salary and the second is the Years of Experience.
-public class que15 {
+public class _0028AssigmentQue15 {
     
 }

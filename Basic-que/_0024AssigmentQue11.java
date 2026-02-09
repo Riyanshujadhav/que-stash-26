@@ -10,6 +10,6 @@
 
 
 
-public class que11 {
+public class _0024AssigmentQue11 {
     
 }

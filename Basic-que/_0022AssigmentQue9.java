@@ -3,6 +3,6 @@
 
 // Input Format
 // A single line containing two space-separated integers, $A$ and $B$.
-public class que9 {
+public class _0022AssigmentQue9 {
     
 }

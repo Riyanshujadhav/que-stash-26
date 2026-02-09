@@ -5,6 +5,6 @@
 // For units greater than 100 and less than or equal to 200: ₹3 per unit.
 
 // For units greater than 200: ₹5 per unit.
-public class que14 {
+public class _0027AssigmentQue14 {
     
 }

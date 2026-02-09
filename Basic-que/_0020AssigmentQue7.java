@@ -3,6 +3,6 @@
 //It is divisible by 400, OR
 
 //It is divisible by 4 but not divisible by 100.
-public class que7 {
+public class _0020AssigmentQue7 {
     
 }

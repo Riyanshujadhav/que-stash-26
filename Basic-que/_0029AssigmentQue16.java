@@ -5,6 +5,6 @@
 // Isosceles: Exactly two sides are equal.
 
 // Scalene: All three sides are different.
-public class que16 {
+public class _0029AssigmentQue16 {
     
 }

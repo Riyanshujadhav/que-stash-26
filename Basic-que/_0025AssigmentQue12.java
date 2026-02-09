@@ -13,7 +13,7 @@
 // 6: Saturday
 
 // 7: Sunday
-public class que12 {
+public class _0025AssigmentQue12 {
 
     
 }

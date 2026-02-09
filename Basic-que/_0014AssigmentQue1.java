@@ -18,7 +18,7 @@
     // Print "Zero" if the number is exactly 0.
 import java.util.*;
 
-public class que1 {
+public class _0014AssigmentQue1 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
