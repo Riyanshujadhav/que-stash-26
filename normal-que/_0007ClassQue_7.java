@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class que_8 {
+public class _0007ClassQue_7 {
      public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
-        int sum=0;
-        for (int i = 0; i <= n; i++) {
-           sum=sum+i;
+        for (int i = 0; i < n; i++) {
+            System.out.println(i);
         }
-        System.out.println(sum);
+
     }
 }

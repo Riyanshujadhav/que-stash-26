@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-public class que_11 {
+public class _0009ClassQue_9 {
      public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();
-        while (n<=100) { 
-            System.out.println(n);
-            n++;
-        }
+       for (int i = 1; i <= 10; i++) {
+           System.out.println(n*i);
+       }
 
     }
 }

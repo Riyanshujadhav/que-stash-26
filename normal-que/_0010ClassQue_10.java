@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class que_10 {
+public class _0010ClassQue_10 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
