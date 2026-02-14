@@ -20,6 +20,9 @@ public class _001_ {
         // replace-->
         list.set(5, 8);
         System.out.println(list);
+        // add at index-->it shift all elements to right
+        list.add(2, 0);
+        System.out.println(list);
         // remove-->
         list.remove(4);
         System.out.println(list);
