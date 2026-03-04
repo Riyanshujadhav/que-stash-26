@@ -3,27 +3,18 @@
 // Aayush purchases 1 smartphone, then Harshit purchases 2 smartphones,
 //  then Aayush purchases 3 smartphones, then Harshit purchases 4 smartphones, and so on.
 //  Once someone can't purchase more smartphones, he loses.
-
 // Aayush can purchase at most M smartphones and Harshit can purchase at most N smartphones.
 //  Who will win ? Print "Aayush" and "Harshit" accordingly.
-
-
 // Input Format
 // The first line of the input contains an integer T denoting the number of test cases.
 //  The description of T test cases follows. 
 // Two integers M and N denoting the maximum possible number of smartphones 
 // Aayush and Harshit can purchase respectively.
-
-
 // Constraints
 // 1 ≤ T ≤ 1000 1 ≤ M, N ≤ 10^6
-
-
 // Output Format
 // For each test case, output a single line containing one string — 
 // the name of the winner i.e. Aayush or Harshit
-
-
 // Sample Input
 // 2
 // 9 3    
@@ -36,7 +27,6 @@
 //  Then Aayush shops for 3 smartphones and then Harshit shops for 4 smartphones but 
 // that would mean 2 + 4 = 6 smartphones in total. It's impossible because Harshit
 //  can shop for at most N smartphones, so he loses. Aayush wins, and so we print "Aayush".
-
 // Test case 2. Now we have M = 8 and N = 11. Aayush shops for 1 smartphone first, 
 // and then Harshit shops for 2 smartphones, then Aayush shops for 3 smartphones.
 //  Now Harshit shops for 4 smartphones (he has 2 + 4 = 6 smartphones in total, 
