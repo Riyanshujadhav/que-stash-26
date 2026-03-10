@@ -28,6 +28,31 @@
 // Explanation
 // 1 + 3 + 5 = 9 which is divisible by 3
 // 1 + 1 + 3 = 5 which is NOT divisible by 3 and 2+4 = 6 which is not divisble by 4.
+
+import java.util.Scanner;
+
 public class _043_19que {
-    
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t-->0){
+            int n=sc.nextInt();
+            int odd=0;
+            int even=0;
+            while(n!=0){
+                int temp=n%10;
+                if(temp%2==0){
+                    even=even+temp;
+                }else{
+                    odd=odd+temp;
+                }
+                n/=10;
+            }
+            if(odd%3==0||even%4==0){
+                System.out.println("Yes");
+            }else{
+                System.out.println("No");
+            }
+        }
+    }
 }
