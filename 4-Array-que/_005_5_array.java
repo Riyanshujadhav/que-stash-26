@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class _004_array {
+public class _005_5_array {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -9,9 +9,12 @@ public class _004_array {
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        int sum=0;
+        System.out.println("enter the no you want to find :");
+        int no=sc.nextInt();
         for(int i=0;i<arr.length;i++){
-            sum+=arr[i];
-        }System.out.println(sum);
+            if(no==arr[i]){
+                System.out.println("index :"+ (i+1) );
+            }
+        }
     }
 }

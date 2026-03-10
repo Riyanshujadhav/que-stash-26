@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class _003_array {
+public class _003_3_array {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
