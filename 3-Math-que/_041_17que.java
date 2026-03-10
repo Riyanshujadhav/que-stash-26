@@ -34,5 +34,31 @@
 // smartphones but he can't because 1 + 3 + 5 = 9 which is greater than M. 
 // Aayush loses and Harshit is the winner.
 public class _041_17que {
-    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int m = sc.nextInt(); // Aayush limit
+            int n = sc.nextInt(); // Harshit limit
+            int turn = 1;
+            int aayush = 0;
+            int harshit = 0;
+            while (true) {
+                if (turn % 2 == 1) { // Aayush turn
+                    if (aayush + turn > m) {
+                        System.out.println("Harshit");
+                        break;
+                    }
+                    aayush += turn;
+                } else { // Harshit turn
+                    if (harshit + turn > n) {
+                        System.out.println("Aayush");
+                        break;
+                    }
+                    harshit += turn;
+                }
+                turn++;
+            }
+        }
+    }
 }
