@@ -1,3 +1,5 @@
+// Take an input N, the size of array. Take N more inputs and store that in an array
+// Write a function which returns the maximum value in the array. Print the value returned.
 import java.util.Arrays;
 import java.util.Scanner;
 
