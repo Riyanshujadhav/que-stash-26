@@ -13,7 +13,24 @@
 // 6: Saturday
 
 // 7: Sunday
-public class _0025AssigmentQue12 {
 
+import java.util.Scanner;
+
+public class _0025AssigmentQue12 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        String day = switch(n){
+            case 1-> "monday";
+            case 2-> "tuesday";
+            case 3-> "Wednesday";
+            case 4-> "Thursday";
+            case 5-> "Friday";
+            case 6-> "Saturday";
+            case 7-> "Sunday";
+            default-> "enter a right one";
+        };
+        System.out.println(day);
+    }
     
 }
