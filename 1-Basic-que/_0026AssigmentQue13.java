@@ -23,6 +23,28 @@
 // 11: November
 
 // 12: December
+
+import java.util.Scanner;
+
 public class _0026AssigmentQue13 {
-    
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+        String year = switch(n){
+            case 1-> "january";
+            case 2-> "february";
+            case 3-> "march";
+            case 4-> "april";
+            case 5-> "may";
+            case 6-> "june";
+            case 7-> "july";
+            case 8-> "august";
+            case 9-> "september";
+            case 10-> "october";
+            case 11-> "november";
+            case 12-> "december";
+            default-> "enter a right one";
+        };
+        System.out.println(year);
+    }
 }
