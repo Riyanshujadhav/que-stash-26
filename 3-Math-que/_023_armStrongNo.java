@@ -6,7 +6,6 @@ public class _023_armStrongNo {
     public static int digit(int n){
         int digits=0;
         while (n!=0){
-            int temp=n%10;
             digits++;
             n/=10;
         }return digits;
