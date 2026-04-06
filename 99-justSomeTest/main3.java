@@ -1,4 +1,4 @@
-public class main3 {
+public class ma {
     public static void main(String[] args) {
        
         System.out.println("h");
